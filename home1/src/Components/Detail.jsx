@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-function UserDetail() {
+function Detail() {
   const { id } = useParams();
   const [user, setUser] = useState(null);
 
@@ -26,4 +26,4 @@ function UserDetail() {
   );
 }
 
-export default UserDetail;
+export default Detail;

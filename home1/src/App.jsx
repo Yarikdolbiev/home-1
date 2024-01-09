@@ -1,6 +1,6 @@
 import {NavLink, Route, Routes } from 'react-router-dom';
 import UserList from './Components/UserList';
-import UserDetail from './Components/UserDetail';
+import Detail from './Components/Detail';
 
 
 
@@ -13,7 +13,7 @@ function App() {
   </nav>
     <Routes>
       <Route path="/" element ={<UserList/>} />
-      <Route path="/user/:id" element ={<UserDetail/>} />
+      <Route path="/user/:id" element ={<Detail/>} />
     </Routes>
   </div>
   )
